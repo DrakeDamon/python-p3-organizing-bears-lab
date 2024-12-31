@@ -1,9 +1,9 @@
-CREATE TABLE bears (
-id INTEGER PRIMARY KEY,
+CREATE TABLE bears(
+id INTEGER,
 name TEXT,
-age  INTEGER,
+age INTEGER,
 sex TEXT,
 color TEXT,
 temperament TEXT,
-alive BOOLEAN
+alive boolean
 );
